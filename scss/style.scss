@@ -1,0 +1,260 @@
+@import 'fontawesome.scss';
+@import 'solid.scss';
+@import 'brands.scss';
+@imoprt 'regular.scss';
+@import 'colors';
+
+/* General CSS */
+html,
+body {
+    height: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+body {
+    //        font-family: 'Roboto', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: $green;
+
+}
+
+h3 {
+    color: $brown;
+    text-transform: uppercase;
+}
+
+p {
+    color: $arsenic;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*============================================================
+                            HOME
+============================================================= */
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url("../img/alps-1.jpg");
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    #home-heading h3 {
+        color: $green;
+        font-size: 55px;
+        font-weight: 700;
+        margin: 20px 0 20px 0;
+        padding: 30px 0;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+/*============================================================
+                            HIKES
+============================================================= */
+.hikes-item {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    .hikes-item-icon i {
+        color: $arsenic;
+        float: left;
+        padding: 5px;
+        //        margin-right: 25px;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        transition: left linear 0.2s, width linear 0.2s, height linear 0.2s, transform linear 0.2s;
+
+        &:hover {
+            width: 85px;
+            height: 85px;
+            //            background-color: $arsenic;
+            //            color: $green;
+            transform: rotate(360deg);
+        }
+    }
+
+    .hikes-item-title h3 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0 0 10px 30px;
+    }
+
+    .hikes-item-desc p {
+        margin: 0;
+        padding-left: 90px;
+
+    }
+}
+
+/*============================================================
+                            ABOUT
+============================================================= */
+
+#about-content-box {
+    float: left;
+    height: 700px;
+
+    #about-content-box-outer {
+        width: 100%;
+        height: 100%;
+        display: table;
+
+        #about-content-box-inner {
+            display: table-cell;
+            vertical-align: middle;
+
+            p {
+                margin-bottom: 30px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/20180805_172143.jpg);
+    background-size: contain;
+    background-position: bottom;
+    border-left: 200px solid $green;
+    border-top: 700px solid transparent;
+}
+
+/*============================================================
+                            GALLERY
+============================================================= */
+#gallery.row{
+    margin: 0;
+}
+
+//.row.no-gutters [class *=col-] {
+//    padding-left: 0;
+//    padding-right: 0;
+//}
+
+.img-wrapper {
+    height: 400px;
+    width: 100%/4;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    img {
+        height: 100%;
+//        width: 100%;
+        transition: transform 0.5s ease;
+        &:hover {
+            cursor: zoom-in;
+            transform: scale(2);
+        }
+    }
+}
+
+
+/*============================================================
+                            CONTENT (Generic)
+============================================================= */
+
+.content-box {
+    padding: 60px 0;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: $jet;
+    margin: 0 auto 30px auto;
+}
+
+/*============================================================
+                            BUTTONS
+============================================================= */
+
+.btn-general {
+    border-width: 4px;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $arsenic;
+    text-transform: uppercase;
+    border-color: $arsenic;
+
+}
+
+.btn-green {
+
+    &:hover,
+    &:focus {
+        background-color: $arsenic;
+        color: $green;
+    }
+}
+
+
+/*============================================================
+                            PARALLAX Generic
+============================================================= */
+.bg-parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+/*============================================================
+                            ANIMATION
+============================================================= */
+#home-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .5s;
+
+}
+
+#home-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+}
+
+#home-btn {
+    animation-delay: .5s;
+}
