@@ -24,7 +24,7 @@ $(document).ready(function () {
 ============================================================= */
 $(document).ready(function () {
   $("#ski-resorts").owlCarousel({
-      items: 3,
+      items: 2,
       autoplay: true,
       smartSpeed: 700,
       loop: true

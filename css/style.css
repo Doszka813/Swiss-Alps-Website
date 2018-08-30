@@ -5013,14 +5013,14 @@ p {
 }
 
 #ski-resorts .resort {
-  width: 100%/4;
-  height: 400px;
+  width: 100%/2;
+  height: 500px;
   margin: 10px;
   overflow: hidden;
 }
 #ski-resorts .resort img {
   width: auto;
-  height: 80%;
+  height: 75%;
 }
 #ski-resorts .resort h4 {
   margin-top: 5px;
