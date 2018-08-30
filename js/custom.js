@@ -4,10 +4,6 @@
 $(document).ready(function () {
     //animate on scroll
     new WOW().init();
-
-
-
-
 });
 /*============================================================
                             GALLERY
@@ -21,4 +17,17 @@ $(document).ready(function () {
             enabled: true
         }
     });
+});
+
+/*============================================================
+                            RESORTS
+============================================================= */
+$(document).ready(function () {
+  $("#ski-resorts").owlCarousel({
+      items: 3,
+      autoplay: true,
+      smartSpeed: 700,
+      loop: true
+
+  });
 });
