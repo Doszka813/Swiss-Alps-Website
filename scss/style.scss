@@ -135,13 +135,13 @@ p {
 }
 
 #about-bg-diagonal {
-    width: 60%;
+    width: 50%;
     height: 700px;
     float: right;
-    background-image: url(../img/20180805_172143.jpg);
+    background-image: url(../img/w1.jpg);
     background-size: contain;
     background-position: bottom;
-    border-left: 200px solid $green;
+    border-left: 300px solid $green;
     border-top: 700px solid transparent;
 }
 
@@ -165,7 +165,6 @@ p {
 
     img {
         height: 100%;
-        //        width: 100%;
         transition: transform 0.5s ease;
 
         &:hover {

@@ -4971,13 +4971,13 @@ p {
 }
 
 #about-bg-diagonal {
-  width: 60%;
+  width: 50%;
   height: 700px;
   float: right;
-  background-image: url(../img/20180805_172143.jpg);
+  background-image: url(../img/w1.jpg);
   background-size: contain;
   background-position: bottom;
-  border-left: 200px solid #A4B494;
+  border-left: 300px solid #A4B494;
   border-top: 700px solid transparent;
 }
 
