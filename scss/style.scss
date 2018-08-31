@@ -8,13 +8,13 @@
 html,
 body {
     height: 100%;
-    margin: 0 auto;
+    margin: 0;
     font-size: 18px;
 }
 
 body {
-    //        font-family: 'Roboto', sans-serif;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Roboto', sans-serif;
+    //    font-family: 'Gloria Hallelujah', cursive;
     background-color: $green;
 
 }
@@ -55,11 +55,10 @@ p {
     text-align: center;
 
     #home-heading h3 {
+        margin: 20px 0 20px 0;
         color: $green;
         font-size: 55px;
         font-weight: 700;
-        margin: 20px 0 20px 0;
-        padding: 30px 0;
         background-color: rgba(0, 0, 0, 0.7);
     }
 }
@@ -135,7 +134,7 @@ p {
 }
 
 #about-bg-diagonal {
-    width: 50%;
+    width: 60%;
     height: 700px;
     float: right;
     background-image: url(../img/w1.jpg);
@@ -158,7 +157,7 @@ p {
 //}
 
 .img-wrapper {
-    height: 400px;
+    height: 500px;
     width: 100%/4;
     overflow: hidden;
     margin-bottom: 10px;
@@ -192,25 +191,56 @@ p {
             width: auto;
             height: 75%;
         }
-        
+
         .resort-info {
             padding: 10px 0 30px 0;
-        
+
             h4.resort-name {
                 font-size: 22px;
                 letter-spacing: 1px;
                 font-weight: 700;
-                
+
             }
-            
+
             a {
                 color: $brown;
                 text-decoration: underline;
-            } 
+            }
         }
     }
 }
 
+/*============================================================
+                            DESTINATIONS
+============================================================= */
+#destinations-cover {
+    background-image: url(../img/destinations/winter-forest-4119x2566-5k-4k-wallpaper-mountain-sun-snow-fir-trees-580.jpg);
+
+    .content-box {
+        background-color: rgba(0, 0, 0, 0.8);
+
+        .content-title h3 {
+            color: $green;
+        }
+    }
+
+    #destinations {
+
+        padding: 50px 0;
+
+        .destination {
+            
+            blockquote, p {
+            color: $white;
+            font-size: 24px;
+            }
+            
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+}
 
 
 /*============================================================

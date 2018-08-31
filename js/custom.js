@@ -31,3 +31,17 @@ $(document).ready(function () {
 
   });
 });
+
+/*============================================================
+                            DESTINATIONS
+============================================================= */
+
+$(document).ready(function () {
+  $("#destinations").owlCarousel({
+      items: 1,
+      autoplay: true,
+      smartSpeed: 700,
+      loop: true
+
+  });
+});

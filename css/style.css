@@ -4859,12 +4859,12 @@ readers do not read off random characters that represent icons */
 html,
 body {
   height: 100%;
-  margin: 0 auto;
+  margin: 0;
   font-size: 18px;
 }
 
 body {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Roboto", sans-serif;
   background-color: #A4B494;
 }
 
@@ -4903,11 +4903,10 @@ p {
   text-align: center;
 }
 #home-content-box-inner #home-heading h3 {
+  margin: 20px 0 20px 0;
   color: #A4B494;
   font-size: 55px;
   font-weight: 700;
-  margin: 20px 0 20px 0;
-  padding: 30px 0;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -4971,7 +4970,7 @@ p {
 }
 
 #about-bg-diagonal {
-  width: 50%;
+  width: 60%;
   height: 700px;
   float: right;
   background-image: url(../img/w1.jpg);
@@ -4989,7 +4988,7 @@ p {
 }
 
 .img-wrapper {
-  height: 400px;
+  height: 500px;
   width: 100%/4;
   overflow: hidden;
   margin-bottom: 10px;
@@ -5031,6 +5030,29 @@ p {
 #ski-resorts .resort .resort-info a {
   color: #523e3b;
   text-decoration: underline;
+}
+
+/*============================================================
+                            DESTINATIONS
+============================================================= */
+#destinations-cover {
+  background-image: url(../img/destinations/winter-forest-4119x2566-5k-4k-wallpaper-mountain-sun-snow-fir-trees-580.jpg);
+}
+#destinations-cover .content-box {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#destinations-cover .content-box .content-title h3 {
+  color: #A4B494;
+}
+#destinations-cover #destinations {
+  padding: 50px 0;
+}
+#destinations-cover #destinations .destination blockquote, #destinations-cover #destinations .destination p {
+  color: #fff;
+  font-size: 24px;
+}
+#destinations-cover #destinations .destination img {
+  margin: 0 auto;
 }
 
 /*============================================================
