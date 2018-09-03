@@ -245,7 +245,7 @@ p {
 
             img {
                 margin: 0 auto;
-                max-height: 600px;
+                max-height: 550px;
                 width: auto;
             }
         }
@@ -301,7 +301,7 @@ p {
 
 .pricing-box-lg {
     padding: 90px 0;
-    margin: 0; 
+    margin: 0;
     border: 3px solid $arsenic;
     color: $white;
     background-color: $arsenic;
@@ -310,6 +310,7 @@ p {
         background-color: $white;
         color: $arsenic
     }
+
     .pricing-value {
         color: $green;
     }
@@ -360,6 +361,7 @@ p {
     background-color: $white;
     text-transform: uppercase;
     border-color: $arsenic;
+
     &:hover,
     &:focus {
         background-color: $arsenic;
@@ -373,7 +375,7 @@ p {
     background-color: $arsenic;
     color: $white;
     border-color: $white;
-        
+
     &:hover,
     &:focus {
         background-color: $white;
