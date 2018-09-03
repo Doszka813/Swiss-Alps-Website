@@ -15,13 +15,14 @@ body {
 body {
     font-family: 'Roboto', sans-serif;
     //    font-family: 'Gloria Hallelujah', cursive;
-    background-color: $green;
+    background-color: $white;
 
 }
 
 h3 {
     color: $brown;
     text-transform: uppercase;
+    font-size: 40px;
 }
 
 p {
@@ -56,7 +57,7 @@ p {
 
     #home-heading h3 {
         margin: 20px 0 20px 0;
-        color: $green;
+        color: $white;
         font-size: 55px;
         font-weight: 700;
         background-color: rgba(0, 0, 0, 0.7);
@@ -138,9 +139,9 @@ p {
     height: 700px;
     float: right;
     background-image: url(../img/w1.jpg);
-    background-size: contain;
+    background-size: auto;
     background-position: bottom;
-    border-left: 300px solid $green;
+    border-left: 300px solid $white;
     border-top: 700px solid transparent;
 }
 
@@ -220,7 +221,7 @@ p {
         background-color: rgba(0, 0, 0, 0.8);
 
         .content-title h3 {
-            color: $green;
+            color: $white;
         }
     }
 
@@ -229,19 +230,98 @@ p {
         padding: 50px 0;
 
         .destination {
-            
-            blockquote, p {
-            color: $white;
-            font-size: 24px;
+
+            overflow: hidden blockquote p {
+                color: $white;
+                font-size: 24px;
+                margin: 10px;
             }
-            
+
+            p {
+                color: $white;
+                font-size: 30px;
+                margin: 10px;
+            }
+
             img {
                 margin: 0 auto;
+                max-height: 600px;
+                width: auto;
             }
         }
     }
 }
 
+/*============================================================
+                            PRICING
+============================================================= */
+.pricing-box {
+    border: 3px solid $arsenic;
+    padding: 50px 0;
+    margin: 40px 0;
+
+    .pricing-title {
+        background-color: $arsenic;
+        color: $white;
+        display: inline-block;
+        padding: 7px 15px;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 30px 0;
+
+    }
+
+    .pricing-value {
+        font-size: 60px;
+        font-weight: 700;
+        color: $arsenic;
+
+        sup {
+            font-size: 28px;
+            font-weight: normal;
+            vertical-align: super;
+        }
+    }
+
+    ul.pricing-spec {
+        list-style: none;
+        padding-left: 0;
+        margin: 20px 0 60px 0;
+
+        li {
+            p {
+                color: $arsenic;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.pricing-box-lg {
+    padding: 90px 0;
+    margin: 0; 
+    border: 3px solid $arsenic;
+    color: $white;
+    background-color: $arsenic;
+
+    .pricing-title {
+        background-color: $white;
+        color: $arsenic
+    }
+    .pricing-value {
+        color: $green;
+    }
+
+    ul.pricing-spec {
+        li {
+            p {
+                color: $white;
+            }
+        }
+    }
+}
 
 /*============================================================
                             CONTENT (Generic)
@@ -277,14 +357,9 @@ p {
     font-size: 20px;
     font-weight: 700;
     color: $arsenic;
-    background-color: $green;
+    background-color: $white;
     text-transform: uppercase;
     border-color: $arsenic;
-
-}
-
-.btn-green {
-
     &:hover,
     &:focus {
         background-color: $arsenic;
@@ -292,6 +367,20 @@ p {
     }
 }
 
+
+.btn-inverse {
+
+    background-color: $arsenic;
+    color: $white;
+    border-color: $white;
+        
+    &:hover,
+    &:focus {
+        background-color: $white;
+        color: $arsenic
+    }
+
+}
 
 /*============================================================
                             PARALLAX Generic

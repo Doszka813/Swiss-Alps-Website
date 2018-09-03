@@ -4865,12 +4865,13 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #A4B494;
+  background-color: #fff;
 }
 
 h3 {
   color: #523e3b;
   text-transform: uppercase;
+  font-size: 40px;
 }
 
 p {
@@ -4904,7 +4905,7 @@ p {
 }
 #home-content-box-inner #home-heading h3 {
   margin: 20px 0 20px 0;
-  color: #A4B494;
+  color: #fff;
   font-size: 55px;
   font-weight: 700;
   background-color: rgba(0, 0, 0, 0.7);
@@ -4974,9 +4975,9 @@ p {
   height: 700px;
   float: right;
   background-image: url(../img/w1.jpg);
-  background-size: contain;
+  background-size: auto;
   background-position: bottom;
-  border-left: 300px solid #A4B494;
+  border-left: 300px solid #fff;
   border-top: 700px solid transparent;
 }
 
@@ -5042,17 +5043,83 @@ p {
   background-color: rgba(0, 0, 0, 0.8);
 }
 #destinations-cover .content-box .content-title h3 {
-  color: #A4B494;
+  color: #fff;
 }
 #destinations-cover #destinations {
   padding: 50px 0;
 }
-#destinations-cover #destinations .destination blockquote, #destinations-cover #destinations .destination p {
+#destinations-cover #destinations .destination {
+  overflow: hidden blockquote p;
+  overflow-color: #fff;
+  overflow-font-size: 24px;
+  overflow-margin: 10px;
+}
+#destinations-cover #destinations .destination p {
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
+  margin: 10px;
 }
 #destinations-cover #destinations .destination img {
   margin: 0 auto;
+  max-height: 600px;
+  width: auto;
+}
+
+/*============================================================
+                            PRICING
+============================================================= */
+.pricing-box {
+  border: 3px solid #3B5249;
+  padding: 50px 0;
+  margin: 40px 0;
+}
+.pricing-box .pricing-title {
+  background-color: #3B5249;
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+}
+.pricing-box .pricing-value {
+  font-size: 60px;
+  font-weight: 700;
+  color: #3B5249;
+}
+.pricing-box .pricing-value sup {
+  font-size: 28px;
+  font-weight: normal;
+  vertical-align: super;
+}
+.pricing-box ul.pricing-spec {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0 60px 0;
+}
+.pricing-box ul.pricing-spec li p {
+  color: #3B5249;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.pricing-box-lg {
+  padding: 90px 0;
+  margin: 0;
+  border: 3px solid #3B5249;
+  color: #fff;
+  background-color: #3B5249;
+}
+.pricing-box-lg .pricing-title {
+  background-color: #fff;
+  color: #3B5249;
+}
+.pricing-box-lg .pricing-value {
+  color: #A4B494;
+}
+.pricing-box-lg ul.pricing-spec li p {
+  color: #fff;
 }
 
 /*============================================================
@@ -5087,14 +5154,23 @@ p {
   font-size: 20px;
   font-weight: 700;
   color: #3B5249;
-  background-color: #A4B494;
+  background-color: #fff;
   text-transform: uppercase;
   border-color: #3B5249;
 }
-
-.btn-green:hover, .btn-green:focus {
+.btn-general:hover, .btn-general:focus {
   background-color: #3B5249;
   color: #A4B494;
+}
+
+.btn-inverse {
+  background-color: #3B5249;
+  color: #fff;
+  border-color: #fff;
+}
+.btn-inverse:hover, .btn-inverse:focus {
+  background-color: #fff;
+  color: #3B5249;
 }
 
 /*============================================================
