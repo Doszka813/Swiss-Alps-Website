@@ -23,13 +23,13 @@ $(document).ready(function () {
                             RESORTS
 ============================================================= */
 $(document).ready(function () {
-  $("#ski-resorts").owlCarousel({
-      items: 2,
-      autoplay: true,
-      smartSpeed: 700,
-      loop: true
+    $("#ski-resorts").owlCarousel({
+        items: 2,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true
 
-  });
+    });
 });
 
 /*============================================================
@@ -37,11 +37,24 @@ $(document).ready(function () {
 ============================================================= */
 
 $(document).ready(function () {
-  $("#destinations").owlCarousel({
-      items: 1,
-      autoplay: true,
-      smartSpeed: 700,
-      loop: true
+    $("#destinations").owlCarousel({
+        items: 1,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true
 
-  });
+    });
+});
+
+/*============================================================
+                            LOGOS
+============================================================= */
+$(document).ready(function () {
+    $("#logos-list").owlCarousel({
+        items: 6,
+        autoplay: true,
+        smartSpeed: 500,
+        loop: true
+
+    });
 });
