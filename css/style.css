@@ -4864,7 +4864,7 @@ body {
 }
 
 body {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
 }
 
@@ -5168,6 +5168,42 @@ p {
 }
 
 /*============================================================
+                            FOOTER
+============================================================= */
+footer {
+  padding: 30px 0;
+  background-color: #3B5249;
+  border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+footer h3 {
+  font-size: 27px;
+  font-weight: 700;
+}
+footer p {
+  margin-bottom: 30px;
+}
+footer h3,
+footer p,
+footer strong {
+  color: #fff;
+  text-align: justify;
+}
+footer #contact-right {
+  float: right;
+  width: 500px;
+}
+footer #contact-right .form-control {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: #fff;
+  fonts-size: 17px;
+  font-weight: 300;
+  padding: 8px 16px;
+  color: #fff;
+}
+
+/*============================================================
                             CONTENT (Generic)
 ============================================================= */
 .content-box {
@@ -5247,6 +5283,30 @@ p {
 
 #home-btn {
   animation-delay: 0.5s;
+}
+
+/*============================================================
+                            SOCIAL
+============================================================= */
+.social-list {
+  padding-left: 0;
+}
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+.social-list li .social-icon i {
+  font-size: 24px;
+}
+.social-list li .icon-ars {
+  color: #A4B494;
+}
+.social-list li .icon-ars:hover {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
