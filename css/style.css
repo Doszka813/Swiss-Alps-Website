@@ -4875,7 +4875,7 @@ h3 {
 }
 
 p {
-  color: #3B5249;
+  color: #3b5249;
   font-weight: 300;
   text-align: center;
 }
@@ -4883,8 +4883,33 @@ p {
 /*============================================================
                             NAVBAR
 ============================================================= */
+header nav {
+  background-color: rgba(59, 82, 73, 0.6);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
 header nav .navbar-brand img {
-  max-height: 100px;
+  padding: 6px;
+  max-height: 80px;
+}
+header nav #menu {
+  padding: 0 85px;
+}
+header nav #menu ul.navbar-nav {
+  margin-left: auto;
+}
+header nav #menu ul.navbar-nav li {
+  margin-right: 10px;
+}
+header nav #menu ul.navbar-nav li a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: transform 0.5s ease;
+}
+header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:focus {
+  transform: scale(1.4);
+  color: #A4B494;
 }
 
 /*============================================================
@@ -4927,7 +4952,7 @@ header nav .navbar-brand img {
   cursor: pointer;
 }
 .hikes-item .hikes-item-icon i {
-  color: #3B5249;
+  color: #3b5249;
   float: left;
   padding: 5px;
   width: 75px;
@@ -5076,7 +5101,7 @@ header nav .navbar-brand img {
                             PRICING
 ============================================================= */
 .pricing-box {
-  border: 3px solid #3B5249;
+  border: 3px solid #3b5249;
   padding: 50px 0;
   margin: 40px 0;
   transition: transform 0.5s ease;
@@ -5085,7 +5110,7 @@ header nav .navbar-brand img {
   transform: scale(1.1);
 }
 .pricing-box .pricing-title {
-  background-color: #3B5249;
+  background-color: #3b5249;
   color: #fff;
   display: inline-block;
   padding: 7px 15px;
@@ -5097,7 +5122,7 @@ header nav .navbar-brand img {
 .pricing-box .pricing-value {
   font-size: 60px;
   font-weight: 700;
-  color: #3B5249;
+  color: #3b5249;
 }
 .pricing-box .pricing-value sup {
   font-size: 28px;
@@ -5110,7 +5135,7 @@ header nav .navbar-brand img {
   margin: 20px 0 60px 0;
 }
 .pricing-box ul.pricing-spec li p {
-  color: #3B5249;
+  color: #3b5249;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -5118,13 +5143,13 @@ header nav .navbar-brand img {
 .pricing-box-lg {
   padding: 90px 0;
   margin: 0;
-  border: 3px solid #3B5249;
+  border: 3px solid #3b5249;
   color: #fff;
-  background-color: #3B5249;
+  background-color: #3b5249;
 }
 .pricing-box-lg .pricing-title {
   background-color: #fff;
-  color: #3B5249;
+  color: #3b5249;
 }
 .pricing-box-lg .pricing-value {
   color: #A4B494;
@@ -5183,7 +5208,7 @@ header nav .navbar-brand img {
 ============================================================= */
 footer {
   padding: 30px 0 0 0;
-  background-color: #3B5249;
+  background-color: #3b5249;
   border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 footer h3 {
@@ -5278,24 +5303,24 @@ footer #footer-bottom #footer-menu ul li a:hover {
   padding: 12px 26px;
   font-size: 20px;
   font-weight: 700;
-  color: #3B5249;
+  color: #3b5249;
   background-color: #fff;
   text-transform: uppercase;
-  border-color: #3B5249;
+  border-color: #3b5249;
 }
 .btn-general:hover, .btn-general:focus {
-  background-color: #3B5249;
+  background-color: #3b5249;
   color: #A4B494;
 }
 
 .btn-inverse {
-  background-color: #3B5249;
+  background-color: #3b5249;
   color: #fff;
   border-color: #fff;
 }
 .btn-inverse:hover, .btn-inverse:focus {
   background-color: #fff;
-  color: #3B5249;
+  color: #3b5249;
 }
 
 /*============================================================

@@ -36,9 +36,39 @@ p {
 ============================================================= */
 header {
     nav {
+        background-color: $arsenic-transp;
+        border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+
         .navbar-brand {
             img {
-                max-height: 100px;
+                padding: 6px;
+                max-height: 80px;
+            }
+        }
+
+        #menu {
+            padding: 0 85px;
+
+            ul.navbar-nav {
+                margin-left: auto;
+
+                li {
+                    margin-right: 10px;
+
+                    a {
+                        color: $white;
+                        font-weight: 500;
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                        transition: transform 0.5s ease;
+
+                        &:hover,
+                        &:focus {
+                            transform: scale(1.4);
+                            color: $green;
+                        }
+                    }
+                }
             }
         }
     }
