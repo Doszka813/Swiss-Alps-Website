@@ -29,11 +29,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="115">
     <!--Header-->
     <header>
         <nav class="navbar navbar-expand-md fixed-top navbar-dark">
-            <a class="navbar-brand" href="#home">
+            <a class="navbar-brand smooth-scroll" href="#home">
                 <img src="img/logos/edelweiss.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,16 +41,16 @@
             </button>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#hikes">Hikes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#resorts">Resorts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#stats">Stats</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#logos">Partners</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item active"><a class="smooth-scroll" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#hikes">Hikes</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#about">About</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#resorts">Resorts</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#destinations">Destinations</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#stats">Stats</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#logos">Partners</a></li>
+                    <li class="nav-item"><a class="smooth-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -65,7 +65,7 @@
                         <h3>Swiss Alps<br>Hiking & Skiing in Switzerland</h3>
                     </div>
                     <div id="home-btn" class="animated fadeInDown">
-                        <a class="btn btn-lg btn-general btn-green" href="#hikes" role="button" title="View Hikes">View Hikes</a>
+                        <a class="btn btn-lg btn-general btn-green smooth-scroll" href="#hikes" role="button" title="View Hikes">View Hikes</a>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                                 </div>
 
                                 <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                                    <a class="btn btn-lg btn-general btn-green" href="#gallery" role="button">Gallery</a>
+                                    <a class="btn btn-lg btn-general btn-green smooth-scroll" href="#gallery" role="button">Gallery</a>
                                 </div>
                             </div>
 
@@ -318,7 +318,7 @@
 
     </section>
     <!--  Destinations section  -->
-    <section id="destiantions">
+    <section id="destinations">
         <div id="destinations-cover" class="bg-parallax">
             <div class="content-box">
                 <div class="content-title wow animated bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -328,7 +328,7 @@
                 <div class="container">
                     <div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="col-md-12">
-                            <div id="destinations" class="text-center owl-carousel owl-theme">
+                            <div id="destination" class="text-center owl-carousel owl-theme">
                                 <div class="destination">
                                     <img src="img/destinations/kandersteg2.jpg" class="img-responsive" alt="kandersteg">
                                     <blockquote>
@@ -371,7 +371,6 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                         </p>
                                     </blockquote>
-
                                     <div class="place-name">
                                         <p>
                                             <strong>Blumental Panorama Trail Maurren</strong>
@@ -609,14 +608,14 @@
                     <div class="col-md-6">
                         <div id="footer-menu">
                             <ul>
-                                <li><a href="#home">Home</a>/</li>
-                                <li><a href="#hikes">Hikes</a>/</li>
-                                <li><a href="#about">About</a>/</li>
-                                <li><a href="#gallery">Gallery</a>/</li>
-                                <li><a href="#resorts">Resorts</a>/</li>
-                                <li><a href="#destinations">Destinations</a>/</li>
-                                <li><a href="#pricing">Pricing</a>/</li>
-                                <li><a href="#stats">Stats</a></li>
+                                <li><a href="#home" class="smooth-scroll">Home</a>/</li>
+                                <li><a href="#hikes" class="smooth-scroll">Hikes</a>/</li>
+                                <li><a href="#about" class="smooth-scroll">About</a>/</li>
+                                <li><a href="#gallery" class="smooth-scroll">Gallery</a>/</li>
+                                <li><a href="#resorts" class="smooth-scroll">Resorts</a>/</li>
+                                <li><a href="#destinations" class="smooth-scroll">Destinations</a>/</li>
+                                <li><a href="#pricing" class="smooth-scroll">Pricing</a>/</li>
+                                <li><a href="#stats" class="smooth-scroll">Stats</a></li>
                             </ul>
                         </div>
                     </div>
@@ -633,6 +632,8 @@
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <!--  Wow JS  -->
     <script src="js/wow/wow.min.js"></script>
+    <!--    Jquery easing -->
+    <script src="js/easing/jquery.easing.1.3.js"></script>
     <!--    Magnific popup JS-->
     <script src="js/magnificpopup/jquery.js"></script>
     <!--Owl carousel JS-->

@@ -1,4 +1,32 @@
 /*============================================================
+                            NAVIGATION
+============================================================= */
+
+//toggle navbar navbar-top class
+$(document).ready(function () {
+    $(window).scroll(function () {
+
+        if ($(this).scrollTop() < 50) {
+            $("nav").removeClass("navbar-top");
+        } else {
+            $("nav").addClass("navbar-top");
+        }
+    })
+});
+
+//smooth scrolling
+$(document).ready(function () {
+    $("a.smooth-scroll").click(function (event) {
+        event.preventDefault();
+        var section = $(this).attr("href");
+        $("html, body").animate({
+            scrollTop: $(section).offset().top - 94
+        }, 1250, "easeInOutExpo");
+    })
+});
+
+
+/*============================================================
                             HIKES
 ============================================================= */
 $(document).ready(function () {
@@ -35,9 +63,8 @@ $(document).ready(function () {
 /*============================================================
                             DESTINATIONS
 ============================================================= */
-
 $(document).ready(function () {
-    $("#destinations").owlCarousel({
+    $("#destination").owlCarousel({
         items: 1,
         autoplay: true,
         smartSpeed: 700,
@@ -49,7 +76,6 @@ $(document).ready(function () {
 /*============================================================
                             COUNTERUP
 ============================================================= */
-
 jQuery(document).ready(function ($) {
     $('.counter').counterUp({
         delay: 10,
