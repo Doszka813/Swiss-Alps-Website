@@ -5093,21 +5093,21 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 #destinations-cover .content-box .content-title h3 {
   color: #fff;
 }
-#destinations-cover #destinations {
+#destinations-cover #destination {
   padding: 50px 0;
 }
-#destinations-cover #destinations .destination {
+#destinations-cover #destination .destination {
   overflow: hidden blockquote p;
   overflow-color: #fff;
   overflow-font-size: 24px;
   overflow-margin: 10px;
 }
-#destinations-cover #destinations .destination p {
+#destinations-cover #destination .destination p {
   color: #fff;
   font-size: 30px;
   margin: 10px;
 }
-#destinations-cover #destinations .destination img {
+#destinations-cover #destination .destination img {
   margin: 0 auto;
   max-height: 550px;
   width: auto;
