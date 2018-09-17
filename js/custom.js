@@ -8,8 +8,11 @@ $(document).ready(function () {
 
         if ($(this).scrollTop() < 50) {
             $("nav").removeClass("navbar-top");
+            $("#back-to-top").fadeOut();
         } else {
             $("nav").addClass("navbar-top");
+            $("#back-to-top").fadeIn();
+            
         }
     })
 });
@@ -25,6 +28,7 @@ $(document).ready(function () {
     })
 });
 
+//back-to-top
 
 /*============================================================
                             HIKES
