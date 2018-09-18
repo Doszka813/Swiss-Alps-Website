@@ -1,10 +1,21 @@
-@media (min-width: 576px) {  }
+/*Extra small devices : landscape phones, portrait tablets*/
+@media (max-width: 320px) {}
 
-@media (min-width: 768px) {  }
+/*Extra small devices : landscape phones, portrait tablets*/
+@media (max-width: 480px) {}
 
-@media (min-width: 992px) {  }
+/*Extra small devices : landscape phones, portrait tablets*/
+@media (max-width: 767px) {}
 
+/*Small devices : portrait tablets, small desktops*/
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/*Medium devices : landscape tablets, medium desktops*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* OK  */
+}
+
+/*Large devices : desktops, laptops*/
 @media (min-width: 1200px) {
-  
-    
+    /*  OK  */
 }

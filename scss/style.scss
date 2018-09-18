@@ -14,7 +14,7 @@ body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    //    font-family: 'Gloria Hallelujah', cursive;
+    //        font-family: 'Gloria Hallelujah', cursive;
     background-color: $white;
 
 }
@@ -38,7 +38,7 @@ header {
 
     .navbar-top {
         background-color: $arsenic-transp;
-        border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 5px solid rgba(0, 0, 0, 0.5);
     }
 
     nav {
@@ -53,15 +53,15 @@ header {
             }
 
             img {
-                max-height: 60px;
+                max-height: 40px;
             }
         }
 
         .navbar-toggler {
-            background-color: rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.5);
             border-radius: 0;
         }
-
+        
         #menu {
             padding: 0 85px;
 
@@ -244,13 +244,12 @@ header {
 #ski-resorts {
     .resort {
         width: 100%/2;
-        height: 500px;
         margin: 0 10px;
         overflow: hidden;
 
         img {
-            width: auto;
-            height: 75%;
+            width: 100%;
+            height: auto;
         }
 
         .resort-info {
@@ -291,7 +290,9 @@ header {
 
         .destination {
 
-            overflow: hidden blockquote p {
+            overflow: hidden;
+
+            blockquote p {
                 color: $white;
                 font-size: 24px;
                 margin: 10px;
@@ -472,7 +473,7 @@ footer {
 
     #contact-right {
         float: right;
-        width: 500px;
+        width: 100%;
 
         .form-control {
             margin-bottom: 20px;

@@ -6,13 +6,13 @@
 $(document).ready(function () {
     $(window).scroll(function () {
 
-        if ($(this).scrollTop() < 50) {
+        if ($(this).scrollTop() < 75) {
             $("nav").removeClass("navbar-top");
             $("#back-to-top").fadeOut();
         } else {
             $("nav").addClass("navbar-top");
             $("#back-to-top").fadeIn();
-            
+
         }
     })
 });
@@ -23,13 +23,17 @@ $(document).ready(function () {
         event.preventDefault();
         var section = $(this).attr("href");
         $("html, body").animate({
-            scrollTop: $(section).offset().top - 94
+            scrollTop: $(section).offset().top - 75
         }, 1250, "easeInOutExpo");
     })
 });
 
-//back-to-top
-
+//close mobile menu on click
+$(document).ready(function () {
+    $(".navbar-collapse ul li a").on("click touch", function () {
+        $(".navbar-toggler").click();
+    })
+});
 /*============================================================
                             HIKES
 ============================================================= */
