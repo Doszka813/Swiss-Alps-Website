@@ -1,8 +1,35 @@
 /*Extra small devices : landscape phones, portrait tablets*/
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 60%;
+        height: 500px;
+        background-size: contain;
+    }
+
+    #about-content-box {
+        height: auto;
+        width: 100%;
+    }
+}
 
 /*Extra small devices : landscape phones, portrait tablets*/
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 60%;
+        height: 500px;
+        background-size: contain;
+    }
+
+    #about-content-box {
+        height: auto;
+        width: 100%;
+    }
+}
 
 /*Extra small devices : landscape phones, portrait tablets*/
 @media (max-width: 767px) {
@@ -21,6 +48,19 @@
     #destinations .container #destination img {
         margin: 0 auto;
         max-height: auto;
+        width: 100%;
+    }
+
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 60%;
+        height: 500px;
+        background-size: contain;
+    }
+
+    #about-content-box {
+        height: auto;
         width: 100%;
     }
 }
