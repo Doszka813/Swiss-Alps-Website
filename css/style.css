@@ -5019,7 +5019,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   width: 60%;
   height: 700px;
   float: right;
-  background-image: url(../img/kandersteg1.jpg);
+  background-image: url(../img/engelberg-hut.jpg);
   background-size: auto;
   background-position: bottom;
   border-left: 300px solid #fff;
@@ -5211,10 +5211,11 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 ============================================================= */
 #logos .logo {
   padding: 40px 0;
+  text-align: center;
 }
 #logos .logo img {
-  max-height: 120px;
-  width: auto;
+  max-height: auto;
+  width: 100%;
 }
 
 /*============================================================

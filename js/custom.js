@@ -63,8 +63,17 @@ $(document).ready(function () {
         items: 2,
         autoplay: true,
         smartSpeed: 700,
-        loop: true
-
+        loop: true,
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            // breakpoint from 800 up
+            800: {
+                items: 2
+            }
+        }
     });
 });
 
@@ -99,7 +108,24 @@ $(document).ready(function () {
         items: 6,
         autoplay: true,
         smartSpeed: 500,
-        loop: true
+        loop: true,
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 1
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 3
+            },
+            // breakpoint from 768 up
+            768: {
+                items: 5
+            },
+            992: {
+                items: 6
+            }
+        }
 
     });
 });
