@@ -4977,7 +4977,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   transform: rotate(360deg);
 }
 .hikes-item .hikes-item-title h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0 0 10px 30px;
 }
@@ -5097,13 +5097,13 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 }
 #destinations-cover #destination .destination blockquote p {
   color: #fff;
-  font-size: 24px;
+  font-size: 1em;
   margin: 10px;
 }
 #destinations-cover #destination .destination p {
   color: #fff;
-  font-size: 30px;
-  margin: 10px;
+  font-size: 1em;
+  margin: 0.2em;
 }
 #destinations-cover #destination .destination img {
   margin: 0 auto;
