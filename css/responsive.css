@@ -1,6 +1,9 @@
 /*Extra small devices : landscape phones, portrait tablets*/
 @media (max-width: 320px) {
-
+    #home #home-heading h3 {
+        padding 0 20px;
+    }
+    
     #about-bg-diagonal {
         display: none;
     }
@@ -13,6 +16,9 @@
 
 /*Extra small devices : landscape phones, portrait tablets*/
 @media (max-width: 480px) {
+    #home #home-heading h3 {
+        padding 0 20px;
+    }
     #about-bg-diagonal {
         display: none;
     }
