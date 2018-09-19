@@ -5124,6 +5124,10 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 .map:hover, .map:focus {
   transform: scale(1.2);
 }
+.map iframe {
+  width: 100%;
+  height: 600px;
+}
 
 /*============================================================
                             STATS
