@@ -15,18 +15,18 @@ body {
 body {
     font-family: 'Roboto', sans-serif;
     //        font-family: 'Gloria Hallelujah', cursive;
-    background-color: $white;
+    background-color: white;
 
 }
 
 h3 {
-    color: $brown;
+    color: $dark;
     text-transform: uppercase;
     font-size: 40px;
 }
 
 p {
-    color: $arsenic;
+    color: $dark;
     font-weight: 300;
     text-align: center;
 }
@@ -37,8 +37,8 @@ p {
 header {
 
     .navbar-top {
-        background-color: $arsenic-transp;
-        border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+        background-color: $dark-transp;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.3);
     }
 
     nav {
@@ -56,6 +56,7 @@ header {
                 max-height: 40px;
             }
         }
+
 
         .navbar-toggler {
             background-color: rgba(0, 0, 0, 0.5);
@@ -77,15 +78,18 @@ header {
                     }
 
                     a {
-                        color: $white;
+                        color: white;
                         font-weight: 500;
                         font-size: 20px;
                         letter-spacing: 1px;
+                        transition: left linear 0.2s, width linear 0.2s, height linear 0.2s, transform linear 0.2s;
 
                         &:hover,
                         &:focus {
-                            color: $green;
+                            color: white;
                             text-decoration: none;
+                            transform: scale(1.2);
+
                         }
                     }
                 }
@@ -104,7 +108,7 @@ header {
 
     #home-cover {
         height: 100%;
-        background-image: url("../img/alps-1.jpg");
+        background-image: url("../img/banner/die-wundersch%C3%B6ne-landschaft-des-matterhorn.JPG");
 
         #home-content-box {
             width: 100%;
@@ -139,7 +143,7 @@ header {
     cursor: pointer;
 
     .hikes-item-icon i {
-        color: $arsenic;
+        color: $dark;
         float: left;
         padding: 5px;
         //        margin-right: 25px;
@@ -206,7 +210,7 @@ header {
     background-image: url(../img/engelberg-hut.jpg);
     background-size: auto;
     background-position: bottom;
-    border-left: 300px solid $white;
+    border-left: 300px solid white;
     border-top: 700px solid transparent;
 }
 
@@ -263,7 +267,7 @@ header {
             }
 
             a {
-                color: $brown;
+                color: $dark;
                 text-decoration: underline;
             }
         }
@@ -280,7 +284,7 @@ header {
         background-color: rgba(0, 0, 0, 0.8);
 
         .content-title h3 {
-            color: $white;
+            color: white;
         }
     }
 
@@ -293,13 +297,13 @@ header {
             overflow: hidden;
 
             blockquote p {
-                color: $white;
-                font-size: 1em;
+                color: white;
+                font-size: 1.2em;
                 margin: 10px;
             }
 
             p {
-                color: $white;
+                color: white;
                 font-size: 1em;
                 margin: 0.2em;
             }
@@ -317,7 +321,7 @@ header {
                             PRICING
 ============================================================= */
 .pricing-box {
-    border: 3px solid $arsenic;
+    border: 3px solid $dark;
     padding: 50px 0;
     margin: 40px 0;
     transition: transform 0.5s ease;
@@ -327,8 +331,8 @@ header {
     }
 
     .pricing-title {
-        background-color: $arsenic;
-        color: $white;
+        background-color: $dark;
+        color: white;
         display: inline-block;
         padding: 7px 15px;
         font-size: 16px;
@@ -340,7 +344,7 @@ header {
     .pricing-value {
         font-size: 60px;
         font-weight: 700;
-        color: $arsenic;
+        color: $dark;
 
         sup {
             font-size: 28px;
@@ -356,7 +360,7 @@ header {
 
         li {
             p {
-                color: $arsenic;
+                color: $dark;
                 font-weight: 400;
                 text-transform: uppercase;
             }
@@ -367,23 +371,23 @@ header {
 .pricing-box-lg {
     padding: 90px 0;
     margin: 0;
-    border: 3px solid $arsenic;
-    color: $white;
-    background-color: $arsenic;
+    border: 3px solid $dark;
+    color: white;
+    background-color: $dark;
 
     .pricing-title {
-        background-color: $white;
-        color: $arsenic
+        background-color: white;
+        color: $dark
     }
 
     .pricing-value {
-        color: $green;
+        color: white;
     }
 
     ul.pricing-spec {
         li {
             p {
-                color: $white;
+                color: white;
             }
         }
     }
@@ -397,13 +401,12 @@ header {
 
     .content-box {
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.8);
         align-content: center;
-        color: $white;
-        opacity: 0.8;
+        color: white;
 
         .content-title h3 {
-            color: $white;
+            color: white;
         }
 
         .stats-item {
@@ -422,7 +425,7 @@ header {
 
             p {
                 text-transform: uppercase;
-                color: $white;
+                color: white;
                 margin-top: 0;
 
 
@@ -437,12 +440,13 @@ header {
 #logos {
 
     .logo {
-        padding: 40px 0;
+        padding: 40px 0px;
         text-align: center;
 
         img {
-            max-height: auto;
-            width: 100%;
+            margin: 0 auto;
+            height: 150px;
+            width: auto;
 
         }
     }
@@ -453,7 +457,7 @@ header {
 ============================================================= */
 footer {
     padding: 30px 0 10px 0;
-    background-color: $arsenic;
+    background-color: $dark;
     border-top: 5px solid rgba(0, 0, 0, 0.1);
 
     h3 {
@@ -468,12 +472,13 @@ footer {
     h3,
     p,
     strong {
-        color: $white;
+        color: white;
         text-align: justify;
     }
 
     #contact {
         margin-bottom: 60px;
+
         #contact-right {
             float: right;
             width: 100%;
@@ -482,11 +487,11 @@ footer {
                 margin-bottom: 20px;
                 background-color: transparent;
                 border-radius: 0;
-                border-color: $white;
+                border-color: $green;
                 fonts-size: 17px;
                 font-weight: 300;
                 padding: 8px 16px;
-                color: $white;
+                color: $green;
             }
         }
     }
@@ -499,13 +504,13 @@ footer {
         #footer-copyrights {
             p {
                 margin: 0;
-                color: $white;
+                color: white;
             }
         }
 
         #footer-menu {
             float: left;
-            color: $white;
+            color: white;
             font-size: 16px;
             font-weight: 300;
 
@@ -519,13 +524,13 @@ footer {
 
                     a {
                         text-decoration: none;
-                        color: $white;
+                        color: white;
                         font-size: 16px;
                         font-weight: 300;
                         margin: 0 10px;
 
                         &:hover {
-                            color: $green;
+                            color: white;
                         }
                     }
                 }
@@ -553,7 +558,7 @@ footer {
 .content-title-underline {
     width: 30px;
     height: 3px;
-    background-color: $jet;
+    background-color: $dark;
     margin: 0 auto 30px auto;
 }
 
@@ -567,28 +572,28 @@ footer {
     padding: 12px 26px;
     font-size: 20px;
     font-weight: 700;
-    color: $arsenic;
-    background-color: $white;
+    color: $dark;
+    background-color: white;
     text-transform: uppercase;
-    border-color: $arsenic;
+    border-color: $dark;
 
     &:hover,
     &:focus {
-        background-color: $arsenic;
-        color: $green;
+        background-color: $dark;
+        color: white;
     }
 }
 
 .btn-inverse {
 
-    background-color: $arsenic;
-    color: $white;
-    border-color: $white;
+    background-color: $dark;
+    color: white;
+    border-color: white;
 
     &:hover,
     &:focus {
-        background-color: $white;
-        color: $arsenic
+        background-color: white;
+        color: $dark;
     }
 
 }
@@ -655,10 +660,10 @@ footer {
         }
 
         .icon-ars {
-            color: $green;
+            color: white;
 
             &:hover {
-                color: $white
+                color: $green
             }
         }
     }

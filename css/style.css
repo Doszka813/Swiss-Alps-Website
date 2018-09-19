@@ -4865,17 +4865,17 @@ body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fff;
+  background-color: white;
 }
 
 h3 {
-  color: #523e3b;
+  color: #46344E;
   text-transform: uppercase;
   font-size: 40px;
 }
 
 p {
-  color: #3b5249;
+  color: #46344E;
   font-weight: 300;
   text-align: center;
 }
@@ -4884,8 +4884,8 @@ p {
                             NAVBAR
 ============================================================= */
 header .navbar-top {
-  background-color: rgba(59, 82, 73, 0.9);
-  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(70, 52, 78, 0.8);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 }
 header nav {
   transition: all 0.5s ease-in-out;
@@ -4915,17 +4915,19 @@ header nav #menu ul.navbar-nav li {
   text-transform: uppercase;
 }
 header nav #menu ul.navbar-nav li .active {
-  color: #A4B494;
+  color: #948b60;
 }
 header nav #menu ul.navbar-nav li a {
-  color: #fff;
+  color: white;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 1px;
+  transition: left linear 0.2s, width linear 0.2s, height linear 0.2s, transform linear 0.2s;
 }
 header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:focus {
-  color: #A4B494;
+  color: white;
   text-decoration: none;
+  transform: scale(1.2);
 }
 
 /*============================================================
@@ -4936,7 +4938,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 }
 #home #home-cover {
   height: 100%;
-  background-image: url("../img/alps-1.jpg");
+  background-image: url("../img/banner/die-wundersch%C3%B6ne-landschaft-des-matterhorn.JPG");
 }
 #home #home-cover #home-content-box {
   width: 100%;
@@ -4965,7 +4967,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   cursor: pointer;
 }
 .hikes-item .hikes-item-icon i {
-  color: #3b5249;
+  color: #46344E;
   float: left;
   padding: 5px;
   width: 75px;
@@ -5022,7 +5024,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   background-image: url(../img/engelberg-hut.jpg);
   background-size: auto;
   background-position: bottom;
-  border-left: 300px solid #fff;
+  border-left: 300px solid white;
   border-top: 700px solid transparent;
 }
 
@@ -5073,7 +5075,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   font-weight: 700;
 }
 #ski-resorts .resort .resort-info a {
-  color: #523e3b;
+  color: #46344E;
   text-decoration: underline;
 }
 
@@ -5087,7 +5089,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   background-color: rgba(0, 0, 0, 0.8);
 }
 #destinations-cover .content-box .content-title h3 {
-  color: #fff;
+  color: white;
 }
 #destinations-cover #destination {
   padding: 50px 0;
@@ -5096,12 +5098,12 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   overflow: hidden;
 }
 #destinations-cover #destination .destination blockquote p {
-  color: #fff;
-  font-size: 1em;
+  color: white;
+  font-size: 1.2em;
   margin: 10px;
 }
 #destinations-cover #destination .destination p {
-  color: #fff;
+  color: white;
   font-size: 1em;
   margin: 0.2em;
 }
@@ -5115,7 +5117,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
                             PRICING
 ============================================================= */
 .pricing-box {
-  border: 3px solid #3b5249;
+  border: 3px solid #46344E;
   padding: 50px 0;
   margin: 40px 0;
   transition: transform 0.5s ease;
@@ -5124,8 +5126,8 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   transform: scale(1.1);
 }
 .pricing-box .pricing-title {
-  background-color: #3b5249;
-  color: #fff;
+  background-color: #46344E;
+  color: white;
   display: inline-block;
   padding: 7px 15px;
   font-size: 16px;
@@ -5136,7 +5138,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 .pricing-box .pricing-value {
   font-size: 60px;
   font-weight: 700;
-  color: #3b5249;
+  color: #46344E;
 }
 .pricing-box .pricing-value sup {
   font-size: 28px;
@@ -5149,7 +5151,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   margin: 20px 0 60px 0;
 }
 .pricing-box ul.pricing-spec li p {
-  color: #3b5249;
+  color: #46344E;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -5157,19 +5159,19 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 .pricing-box-lg {
   padding: 90px 0;
   margin: 0;
-  border: 3px solid #3b5249;
-  color: #fff;
-  background-color: #3b5249;
+  border: 3px solid #46344E;
+  color: white;
+  background-color: #46344E;
 }
 .pricing-box-lg .pricing-title {
-  background-color: #fff;
-  color: #3b5249;
+  background-color: white;
+  color: #46344E;
 }
 .pricing-box-lg .pricing-value {
-  color: #A4B494;
+  color: white;
 }
 .pricing-box-lg ul.pricing-spec li p {
-  color: #fff;
+  color: white;
 }
 
 /*============================================================
@@ -5180,13 +5182,12 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 }
 #stats-cover .content-box {
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   align-content: center;
-  color: #fff;
-  opacity: 0.8;
+  color: white;
 }
 #stats-cover .content-box .content-title h3 {
-  color: #fff;
+  color: white;
 }
 #stats-cover .content-box .stats-item {
   padding: 100px 0;
@@ -5202,7 +5203,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 }
 #stats-cover .content-box .stats-item p {
   text-transform: uppercase;
-  color: #fff;
+  color: white;
   margin-top: 0;
 }
 
@@ -5210,12 +5211,13 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
                             LOGOS
 ============================================================= */
 #logos .logo {
-  padding: 40px 0;
+  padding: 40px 0px;
   text-align: center;
 }
 #logos .logo img {
-  max-height: auto;
-  width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  width: auto;
 }
 
 /*============================================================
@@ -5223,7 +5225,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 ============================================================= */
 footer {
   padding: 30px 0 10px 0;
-  background-color: #3b5249;
+  background-color: #46344E;
   border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 footer h3 {
@@ -5236,7 +5238,7 @@ footer p {
 footer h3,
 footer p,
 footer strong {
-  color: #fff;
+  color: white;
   text-align: justify;
 }
 footer #contact {
@@ -5250,11 +5252,11 @@ footer #contact #contact-right .form-control {
   margin-bottom: 20px;
   background-color: transparent;
   border-radius: 0;
-  border-color: #fff;
+  border-color: #948b60;
   fonts-size: 17px;
   font-weight: 300;
   padding: 8px 16px;
-  color: #fff;
+  color: #948b60;
 }
 footer #footer-bottom {
   background-color: rgba(0, 0, 0, 0.1);
@@ -5263,11 +5265,11 @@ footer #footer-bottom {
 }
 footer #footer-bottom #footer-copyrights p {
   margin: 0;
-  color: #fff;
+  color: white;
 }
 footer #footer-bottom #footer-menu {
   float: left;
-  color: #fff;
+  color: white;
   font-size: 16px;
   font-weight: 300;
 }
@@ -5281,13 +5283,13 @@ footer #footer-bottom #footer-menu ul li {
 }
 footer #footer-bottom #footer-menu ul li a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-size: 16px;
   font-weight: 300;
   margin: 0 10px;
 }
 footer #footer-bottom #footer-menu ul li a:hover {
-  color: #A4B494;
+  color: white;
 }
 
 /*============================================================
@@ -5308,7 +5310,7 @@ footer #footer-bottom #footer-menu ul li a:hover {
 .content-title-underline {
   width: 30px;
   height: 3px;
-  background-color: #34252F;
+  background-color: #46344E;
   margin: 0 auto 30px auto;
 }
 
@@ -5321,24 +5323,24 @@ footer #footer-bottom #footer-menu ul li a:hover {
   padding: 12px 26px;
   font-size: 20px;
   font-weight: 700;
-  color: #3b5249;
-  background-color: #fff;
+  color: #46344E;
+  background-color: white;
   text-transform: uppercase;
-  border-color: #3b5249;
+  border-color: #46344E;
 }
 .btn-general:hover, .btn-general:focus {
-  background-color: #3b5249;
-  color: #A4B494;
+  background-color: #46344E;
+  color: white;
 }
 
 .btn-inverse {
-  background-color: #3b5249;
-  color: #fff;
-  border-color: #fff;
+  background-color: #46344E;
+  color: white;
+  border-color: white;
 }
 .btn-inverse:hover, .btn-inverse:focus {
-  background-color: #fff;
-  color: #3b5249;
+  background-color: white;
+  color: #46344E;
 }
 
 .btn-back-to-top {
@@ -5400,10 +5402,10 @@ footer #footer-bottom #footer-menu ul li a:hover {
   font-size: 24px;
 }
 .social-list li .icon-ars {
-  color: #A4B494;
+  color: white;
 }
 .social-list li .icon-ars:hover {
-  color: #fff;
+  color: #948b60;
 }
 
 /*# sourceMappingURL=style.css.map */
