@@ -318,78 +318,17 @@ header {
 }
 
 /*============================================================
-                            PRICING
+                            MAPS
 ============================================================= */
-.pricing-box {
-    border: 3px solid $dark;
-    padding: 50px 0;
-    margin: 40px 0;
+
+.map {
     transition: transform 0.5s ease;
+    overflow: hidden;
+    margin: 0 0 30px 0;
 
-    &:hover {
-        transform: scale(1.1);
-    }
-
-    .pricing-title {
-        background-color: $dark;
-        color: white;
-        display: inline-block;
-        padding: 7px 15px;
-        font-size: 16px;
-        font-weight: 700;
-        text-transform: uppercase;
-        margin: 0 0 30px 0;
-    }
-
-    .pricing-value {
-        font-size: 60px;
-        font-weight: 700;
-        color: $dark;
-
-        sup {
-            font-size: 28px;
-            font-weight: normal;
-            vertical-align: super;
-        }
-    }
-
-    ul.pricing-spec {
-        list-style: none;
-        padding-left: 0;
-        margin: 20px 0 60px 0;
-
-        li {
-            p {
-                color: $dark;
-                font-weight: 400;
-                text-transform: uppercase;
-            }
-        }
-    }
-}
-
-.pricing-box-lg {
-    padding: 90px 0;
-    margin: 0;
-    border: 3px solid $dark;
-    color: white;
-    background-color: $dark;
-
-    .pricing-title {
-        background-color: white;
-        color: $dark
-    }
-
-    .pricing-value {
-        color: white;
-    }
-
-    ul.pricing-spec {
-        li {
-            p {
-                color: white;
-            }
-        }
+    &:hover,
+    &:focus {
+        transform: scale(1.2);
     }
 }
 

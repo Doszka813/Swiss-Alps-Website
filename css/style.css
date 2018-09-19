@@ -5114,64 +5114,15 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 }
 
 /*============================================================
-                            PRICING
+                            MAPS
 ============================================================= */
-.pricing-box {
-  border: 3px solid #46344E;
-  padding: 50px 0;
-  margin: 40px 0;
+.map {
   transition: transform 0.5s ease;
-}
-.pricing-box:hover {
-  transform: scale(1.1);
-}
-.pricing-box .pricing-title {
-  background-color: #46344E;
-  color: white;
-  display: inline-block;
-  padding: 7px 15px;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
+  overflow: hidden;
   margin: 0 0 30px 0;
 }
-.pricing-box .pricing-value {
-  font-size: 60px;
-  font-weight: 700;
-  color: #46344E;
-}
-.pricing-box .pricing-value sup {
-  font-size: 28px;
-  font-weight: normal;
-  vertical-align: super;
-}
-.pricing-box ul.pricing-spec {
-  list-style: none;
-  padding-left: 0;
-  margin: 20px 0 60px 0;
-}
-.pricing-box ul.pricing-spec li p {
-  color: #46344E;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.pricing-box-lg {
-  padding: 90px 0;
-  margin: 0;
-  border: 3px solid #46344E;
-  color: white;
-  background-color: #46344E;
-}
-.pricing-box-lg .pricing-title {
-  background-color: white;
-  color: #46344E;
-}
-.pricing-box-lg .pricing-value {
-  color: white;
-}
-.pricing-box-lg ul.pricing-spec li p {
-  color: white;
+.map:hover, .map:focus {
+  transform: scale(1.2);
 }
 
 /*============================================================
