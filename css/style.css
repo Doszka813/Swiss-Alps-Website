@@ -5117,12 +5117,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
                             MAPS
 ============================================================= */
 .map {
-  transition: transform 0.5s ease;
-  overflow: hidden;
   margin: 0 0 30px 0;
-}
-.map:hover, .map:focus {
-  transform: scale(1.2);
 }
 .map iframe {
   width: 100%;

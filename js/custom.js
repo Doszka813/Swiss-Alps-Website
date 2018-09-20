@@ -120,10 +120,10 @@ $(document).ready(function () {
             },
             // breakpoint from 768 up
             768: {
-                items: 5
+                items: 4
             },
-            992: {
-                items: 6
+            1000: {
+                items: 5
             }
         }
 

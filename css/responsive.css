@@ -41,6 +41,11 @@
         min-height: 100%;
 
     }
+    
+    .stats-item {
+        padding: 20px 0 !important;
+    }
+    
 }
 
 /*============================================================
@@ -95,10 +100,6 @@
     #about-content-box {
         height: auto;
         width: 100%;
-    }
-
-    footer #footer-bottom #footer-menu {
-        display: none;
     }
 }
 
