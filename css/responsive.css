@@ -19,7 +19,7 @@
 ============================================================= */
 @media (max-width: 480px) {
     #home #home-heading h3 {
-        padding 0 20px;
+        padding: 0 20px;
     }
 
     #hikes .hikes-item-icon i {
@@ -51,9 +51,9 @@
     .stats-item {
         padding: 20px 0 !important;
     }
-    
+
     .stats-item i {
-        margin: 0 0 10px 0!important;
+        margin: 0 0 10px 0 !important;
     }
 
 }
@@ -64,7 +64,7 @@
 @media (max-width: 767px) {
 
     #home #home-heading h3 {
-        padding 0 20px;
+        padding: 0 20px;
         font-size: 24px !important;
     }
 
@@ -81,7 +81,7 @@
     #about .content-title-underline {
         margin: 0 auto 30px auto;
     }
-    
+
     #about #about-btn {
         text-align: center;
     }
@@ -98,7 +98,8 @@
 
     #destinations .container #destination img {
         margin: 0 auto;
-        max-height: auto;
+        max-height: 350px;
+        min-height: 350px;
         width: 100%;
     }
 

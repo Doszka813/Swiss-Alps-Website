@@ -37,7 +37,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".navbar-toggler").on("click touch", function () {
-            $("nav").addClass("navbar-top");
+        $("nav").addClass("navbar-top");
     })
 });
 /*============================================================
