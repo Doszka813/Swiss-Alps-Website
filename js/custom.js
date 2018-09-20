@@ -34,6 +34,12 @@ $(document).ready(function () {
         $(".navbar-toggler").click();
     })
 });
+
+$(document).ready(function () {
+    $(".navbar-toggler").on("click touch", function () {
+            $("nav").addClass("navbar-top");
+    })
+});
 /*============================================================
                             HIKES
 ============================================================= */

@@ -22,6 +22,12 @@
         padding 0 20px;
     }
 
+    #hikes .hikes-item-icon i {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+
     #about-bg-diagonal {
         display: none;
     }
@@ -41,11 +47,15 @@
         min-height: 100%;
 
     }
-    
+
     .stats-item {
         padding: 20px 0 !important;
     }
     
+    .stats-item i {
+        margin: 0 0 10px 0!important;
+    }
+
 }
 
 /*============================================================
@@ -71,6 +81,10 @@
     #about .content-title-underline {
         margin: 0 auto 30px auto;
     }
+    
+    #about #about-btn {
+        text-align: center;
+    }
 
     #gallery .img-wrapper {
         width: 100%;
@@ -87,7 +101,7 @@
         max-height: auto;
         width: 100%;
     }
-    
+
     .map iframe {
         height: 400px;
     }
@@ -121,7 +135,7 @@
         height: auto;
         width: 100%;
     }
-    
+
     .map iframe {
         height: 400px;
     }

@@ -4884,7 +4884,7 @@ p {
                             NAVBAR
 ============================================================= */
 header .navbar-top {
-  background-color: rgba(70, 52, 78, 0.8);
+  background-color: rgba(70, 52, 78, 0.9);
   border-bottom: 3px solid rgba(0, 0, 0, 0.3);
 }
 header nav {
@@ -4944,7 +4944,7 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
   width: 100%;
   height: 100%;
   display: table;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 #home #home-cover #home-content-box #home-content-box-inner {
   display: table-cell;
@@ -4969,7 +4969,8 @@ header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:f
 .hikes-item .hikes-item-icon i {
   color: #46344E;
   float: left;
-  padding: 5px;
+  padding: 10px;
+  margin-right: 25px;
   width: 75px;
   height: 75px;
   text-align: center;
