@@ -4925,7 +4925,6 @@ header nav #menu ul.navbar-nav li a {
   transition: left linear 0.2s, width linear 0.2s, height linear 0.2s, transform linear 0.2s;
 }
 header nav #menu ul.navbar-nav li a:hover, header nav #menu ul.navbar-nav li a:focus {
-  color: white;
   text-decoration: none;
   transform: scale(1.2);
 }
